@@ -1,0 +1,61 @@
+From Backend Team
+
+API
+
+______
+
+Get All Orders
+
+GET request to /api/orders
+Smaple Responses:
+[
+  {
+    id: 1,
+    name: 'James',
+    drink: 'Coffee'
+  },
+  {
+    id: 2,
+    name: 'John',
+    drink: 'Latte'
+  }
+]
+
+______
+
+Add an Order
+
+POST request to /api/orders
+Type: JSON
+
+Smaple POST:
+{
+  name: 'John',
+  drink: 'Coffee'
+}
+
+Sample Response:
+{
+  id: 3,
+  name: 'John',
+  drink: 'Coffee'
+}
+
+______
+
+Update an Order
+
+PUT request to /api/orders/{id}
+
+Smaple PUT request:
+PUT api/orders/1
+{
+  name: 'foo',
+  drink: 'bar'
+}
+
+______
+
+Delete an Order
+
+DELETE request to /api

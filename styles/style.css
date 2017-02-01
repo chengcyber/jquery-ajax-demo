@@ -1,0 +1,28 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  background-color: #ddd;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+.pull-right {
+  float: right;
+}
+
+li .edit {
+  display: none;
+}
+
+li.edit .noedit {
+  display: none;
+}
+
+li.edit .edit {
+  display: initial;
+}

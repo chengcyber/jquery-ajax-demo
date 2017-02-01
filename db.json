@@ -1,0 +1,14 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "name": "John",
+      "drink": "Latte"
+    },
+    {
+      "id": 2,
+      "name": "foo",
+      "drink": "bar"
+    }
+  ]
+}
